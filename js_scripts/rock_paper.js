@@ -21,7 +21,7 @@ function playRound(playerSelection, computerSelection) {
         return "Player Wins";
     }
 }
- 
+
 function getComputerChoice(){
     let computerChoise = Math.floor(Math.random() * 3); 
     switch (computerChoise){
